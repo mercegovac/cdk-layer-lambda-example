@@ -1,16 +1,13 @@
 import { Context } from 'aws-lambda';
-import { S3Example } from 'layer-example'
-
-
-const region = process.env.REGION ?? 'us-east-1'
+import { S3Example } from 'layer-example';
 
 export async function handler(event: any, context: Context) {
-    console.log(event)
-    console.log(context)
+  console.log(event);
+  console.log(context);
 
-    const s3 = new S3Example(region)
+  const s3 = new S3Example();
 
-    console.log(s3)
+  console.log(s3);
 
-    console.log(await s3.getAllBucketNames())
+  console.log(s3.test());
 }
