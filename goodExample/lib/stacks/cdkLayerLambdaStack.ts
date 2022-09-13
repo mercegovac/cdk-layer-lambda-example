@@ -25,7 +25,7 @@ export class CdkLayerLambdaStack extends Stack {
         LayerVersion.fromLayerVersionArn(
           this,
           'CdkLayerExample',
-          'arn:aws:lambda:eu-west-1:146191261538:layer:TsCdkLayerExample:9'
+          'arn:aws:lambda:eu-west-1:146191261538:layer:TsCdkLayerExample:13'
         ),
       ],
     });

@@ -21,7 +21,7 @@
     },
     "dependencies": {
         "aws-cdk-lib": "^2.41.0",
-        "constructs": "^10.1.97",
+        "constructs": "^10.1.101",
         "layer-example": "git+ssh://git@github.com/mercegovac/cdk-layer-example.git",
         "source-map-support": "^0.5.21"
     }
